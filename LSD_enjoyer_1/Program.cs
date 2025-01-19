@@ -43,3 +43,5 @@ Console.WriteLine("Ведите чар: ");
 char xC;
 xC = Char.Parse(Console.ReadLine());
 Console.WriteLine(xC + " - ваше значение");
+
+//блаблабла 1488 статья 228
