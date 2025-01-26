@@ -44,4 +44,4 @@ char xC;
 xC = Char.Parse(Console.ReadLine());
 Console.WriteLine(xC + " - ваше значение");
 
-//блаблабл 1488 статья 228
+//блаблаблF 1488 статья 228
