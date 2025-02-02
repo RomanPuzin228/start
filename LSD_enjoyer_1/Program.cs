@@ -47,7 +47,7 @@ void Nazvanie()
     //блаблабла 1488 статья 228
 }
 
-void microzaim_babok()
+void Microzaim()
 {
 int zaim = 100000;
 while (true)
@@ -73,3 +73,39 @@ while (true)
 }
 }
 
+int i = 0;
+//думает потом делает
+while (i < 5)
+{
+    Console.WriteLine(i + " ");
+    i++;
+    
+}
+i = 0;
+//делает потом думает
+do {
+    i++;
+    Console.WriteLine(i + " ");
+}while (i < 5);
+//думаем что должно быть,он думает потом делает
+for (i = 1; i < 11; i++)
+{
+int num52 = 2;
+Console.WriteLine("2 * "+i+" = "+num52*i);
+}
+
+//виды массивов
+int[] num;
+int[] num1 = new int[10];
+int[] num2 = new int[5] {1,2,3,4,5};
+int[] num3 = { 5, 4, 3, 2, 1 };
+//вид n-мер массивов
+int[,] matrix = new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+foreach (int a in num2)
+{
+    Console.WriteLine(a);
+}
+for (int b = 0; b < num2.Length; b++)
+{
+    Console.WriteLine(" В ячейке под номером "+b+" храниться значение - " + num2[b]);
+};
