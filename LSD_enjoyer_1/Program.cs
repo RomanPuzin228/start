@@ -61,7 +61,7 @@ while (true)
     else if (skam > 0)
     {
         Console.WriteLine("Денег нет но отдал микрозаймы возьму еще(куплю аркану на врку)");
-        skam = skam - 20000;
+        skam = skam - 25000;
     }
     else
     {
