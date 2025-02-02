@@ -47,6 +47,8 @@ void Nazvanie()
     //блаблабла 1488 статья 228
 }
 
+void microzaim_babok()
+{
 int zaim = 100000;
 while (true)
 {
@@ -69,3 +71,5 @@ while (true)
     }
     Console.WriteLine("Ваш баланс: "+ skam);
 }
+}
+
