@@ -73,6 +73,8 @@ while (true)
 }
 }
 
+void masiv_chikl()
+{
 int i = 0;
 //думает потом делает
 while (i < 5)
@@ -109,3 +111,4 @@ for (int b = 0; b < num2.Length; b++)
 {
     Console.WriteLine(" В ячейке под номером "+b+" храниться значение - " + num2[b]);
 };
+}
