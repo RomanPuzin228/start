@@ -1,7 +1,21 @@
 ﻿using System.Security.Cryptography.X509Certificates;
-
 internal class Program
 {
+    class person()
+    {
+        public double height;
+        public int age;
+        public string name;
+        public void speak()
+        {
+            Console.WriteLine($"Меня зовут - {name}, мне - {age} лет");
+        }
+
+
+    }
+
+
+
     private static void Main(string[] args)
     {
         void Nazvanie()
@@ -122,7 +136,6 @@ internal class Program
             int z = x + y;
             return x * y;
         }
-
         double Stepen(double x)
         {
             double result = x * x;
@@ -137,7 +150,15 @@ internal class Program
             }
             return x;
         }
-        Console.WriteLine(factor(5));
 
+        person aboba=new person();
+        aboba.name = "maxim";
+        aboba.age = 2;
+        aboba.speak();
+
+        person maxim = new person();
+        maxim.name = "aboba";
+        maxim.age = 52;
+        maxim.speak();
     }
 }
